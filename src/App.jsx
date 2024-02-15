@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 // Component import
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
   // dark mode start
@@ -24,6 +25,7 @@ const App = () => {
   return (
     <div>
       <Navbar theme={theme} setTheme={setTheme} />
+      <Hero />
     </div>
   );
 };
