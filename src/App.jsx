@@ -25,7 +25,7 @@ const App = () => {
   return (
     <div>
       <Navbar theme={theme} setTheme={setTheme} />
-      <Hero />
+      <Hero theme={theme} />
     </div>
   );
 };
