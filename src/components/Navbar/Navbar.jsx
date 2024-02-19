@@ -7,12 +7,12 @@ export const Navlinks = [
   {
     id: 1,
     name: "HOME",
-    link: "/#",
+    link: "/#hero",
   },
   {
     id: 2,
     name: "CARS",
-    link: "/#cars",
+    link: "/#carList",
   },
   {
     id: 1,
@@ -22,7 +22,7 @@ export const Navlinks = [
   {
     id: 1,
     name: "BOOKING",
-    link: "/#booking",
+    link: "/#contact",
   },
 ];
 const Navbar = ({ theme, setTheme }) => {
@@ -53,6 +53,7 @@ const Navbar = ({ theme, setTheme }) => {
                   </a>
                 </li>
               ))}
+
               {/* DarkMode feature implement */}
               {theme === "dark" ? (
                 <BiSolidSun
@@ -67,6 +68,7 @@ const Navbar = ({ theme, setTheme }) => {
               )}
             </ul>
           </nav>
+
           {/* Mobile view  */}
           <div className="flex items-center gap-4 md:hidden ">
             {/* dark  mode */}
