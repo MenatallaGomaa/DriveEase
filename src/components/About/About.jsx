@@ -22,13 +22,11 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
+                We create experiences that delight our customers by exceeding
+                their expectations and making mobility more convenient,
+                sustainable and exciting.{" "}
               </p>
-              <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
-              </p>
+              <p data-aos="fade-up">EXPECT BETTER is what drives us. </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started
               </button>
