@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { Component, useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // Component import
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
-import Testimonial from "./components/Testimonial/Testimonial";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Contact from "./components/Contact/Contact";
+import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
@@ -31,7 +31,6 @@ const App = () => {
   }, [theme]);
   // dark mode end
 
-  // AOS Initialization
   React.useEffect(() => {
     AOS.init({
       offset: 100,
@@ -41,9 +40,8 @@ const App = () => {
     });
     AOS.refresh();
   }, []);
-
   return (
-    <div>
+    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
