@@ -4,19 +4,20 @@ const testimonialData = [
   {
     name: "Dilshad",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Friendly & competent staffs, good service",
     aosDelay: "0",
   },
   {
     name: "Satya",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description:
+      "Best rental car experience I have ever had with any hire car company, smooth and efficient from start to finish and the car was excellent",
     aosDelay: "300",
   },
   {
     name: "Sabir",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Good service!",
     aosDelay: "1000",
   },
 ];
@@ -35,8 +36,7 @@ const Testimonial = () => {
               What Our Clients Say About Us
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis iure consectetur tempora amet.
+              Based on 1788 reviews from our Customer Excitement Score survey
             </p>
           </div>
 

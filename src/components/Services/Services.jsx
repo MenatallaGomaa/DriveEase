@@ -5,30 +5,33 @@ import { SlNote } from "react-icons/sl";
 
 const skillsData = [
   {
-    name: "Best Price",
+    name: "Transparent Pricing",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description:
+      "Enjoy peace of mind with our straightforward pricing structure, devoid of hidden fees or surprises, allowing you to plan your journey with confidence.",
     aosDelay: "0",
   },
   {
-    name: "Fast and Safe",
+    name: "Extensive Fleet Selection",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description:
+      "Choose from our diverse range of vehicles, tailored to suit every need and preference, ensuring you find the perfect ride for any occasion.",
     aosDelay: "500",
   },
   {
-    name: "Experience Drivers",
+    name: "Exceptional Customer Service",
     icon: (
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description:
+      "Our dedicated team is committed to providing unparalleled assistance and support, ensuring a seamless rental experience from booking to drop-off, every time.",
     aosDelay: "1000",
   },
 ];
