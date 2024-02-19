@@ -4,20 +4,20 @@ import car3 from "../../assets/car6.png";
 
 const carList = [
   {
-    name: "BMW UX",
-    price: 100,
+    name: "Range Rover Evoque",
+    price: 140,
     image: whiteCar,
     aosDelay: "0",
   },
   {
-    name: "KIA UX",
-    price: 140,
+    name: "Mahindra Scorpio 2023",
+    price: 120,
     image: car2,
     aosDelay: "500",
   },
   {
-    name: "BMW UX",
-    price: 100,
+    name: "Mahindra Scorpio S10",
+    price: 95,
     image: car3,
     aosDelay: "1000",
   },
@@ -56,7 +56,7 @@ const CarList = () => {
                 <div className="space-y-2">
                   <h1 className="text-primary font-semibold">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
-                    <p>${data.price}/Day</p>
+                    <p>€{data.price}/Day</p>
                     <a href="#">Details</a>
                   </div>
                 </div>

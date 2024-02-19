@@ -2,20 +2,20 @@ import React from "react";
 
 const testimonialData = [
   {
-    name: "Dilshad",
+    name: "Alex",
     image: "",
     description: "Friendly & competent staffs, good service",
     aosDelay: "0",
   },
   {
-    name: "Satya",
+    name: "Susann",
     image: "",
     description:
       "Best rental car experience I have ever had with any hire car company, smooth and efficient from start to finish and the car was excellent",
     aosDelay: "300",
   },
   {
-    name: "Sabir",
+    name: "Martin",
     image: "",
     description: "Good service!",
     aosDelay: "1000",
