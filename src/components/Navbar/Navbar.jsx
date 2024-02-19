@@ -6,22 +6,17 @@ import ResponsiveMenu from "./ResponsiveMenu";
 export const Navlinks = [
   {
     id: 1,
-    name: "HOME",
-    link: "/#hero",
+    name: "Home",
+    link: "/#",
   },
   {
     id: 2,
-    name: "CARS",
-    link: "/#carList",
-  },
-  {
-    id: 1,
-    name: "ABOUT",
+    name: "About",
     link: "/#about",
   },
   {
-    id: 1,
-    name: "BOOKING",
+    id: 3,
+    name: "Contact",
     link: "/#contact",
   },
 ];
@@ -39,7 +34,7 @@ const Navbar = ({ theme, setTheme }) => {
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-3xl font-bold font-serif">DriveEase</span>
+            <span className="text-3xl font-bold font-serif">Car Rental</span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
@@ -53,7 +48,6 @@ const Navbar = ({ theme, setTheme }) => {
                   </a>
                 </li>
               ))}
-
               {/* DarkMode feature implement */}
               {theme === "dark" ? (
                 <BiSolidSun
@@ -68,7 +62,6 @@ const Navbar = ({ theme, setTheme }) => {
               )}
             </ul>
           </nav>
-
           {/* Mobile view  */}
           <div className="flex items-center gap-4 md:hidden ">
             {/* dark  mode */}
