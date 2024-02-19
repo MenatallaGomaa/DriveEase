@@ -1,8 +1,18 @@
-# React + Vite
+# DriveEase
+ 
+ DriveEase is a car rental web application that allows users to easily find and rent cars for their travel needs. It provides a user-friendly interface for browsing available cars, viewing details, and making bookings. DriveEase offers a wide range of cars to choose from, ensuring that users can find a vehicle that meets their requirements.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
 
-Currently, two official plugins are available:
+* Car Listings: DriveEase displays a list of available cars with details such as name, price, and image. Users can browse through the listings to find the car that suits their needs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+* Dark Mode: DriveEase offers a dark mode option for users who prefer a darker interface, providing better visibility in low-light conditions.
+
+# Instructions to run this app in my computer:
+
+- git clone
+- npm install
+- npm run dev
+
+# DEMO:
